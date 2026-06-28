@@ -4,7 +4,7 @@
 
 @section('content')
 <!-- SaaS Hero Section (Off-White Background, Clean Text Contrast, Flat Dual-Tone Search Card) -->
-<section class="py-5" style="background-color: #fafafa;">
+<section class="py-5 pt-0" style="background-color: #fafafa;">
     <div class="container py-5">
         <div class="row align-items-center g-5">
             <!-- Left Hero Content -->
