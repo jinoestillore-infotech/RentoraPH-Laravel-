@@ -3,6 +3,18 @@
 @section('title', 'Rentora PH | Modern Boarding House Finder & Management')
 
 @section('content')
+<div class="container">
+    @if(session('tenant_registered'))
+        <div class="alert alert-success border border-success-subtle rounded-3 my-4 p-3 alert-dismissible fade show" role="alert">
+            <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-check-circle-fill"></i>
+                <div>{{ session('tenant_registered') }}</div>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    @endif
+</div>
+
 <!-- SaaS Hero Section (Off-White Background, Clean Text Contrast, Flat Dual-Tone Search Card) -->
 <section class="py-5 pt-0" style="background-color: #fafafa;">
     <div class="container py-5">
